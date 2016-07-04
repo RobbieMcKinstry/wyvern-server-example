@@ -1,0 +1,4 @@
+import wyvern.util.web.server
+
+val f = server.NewFileServer(4444)
+f.listenAndServe("/static")
